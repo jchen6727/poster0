@@ -1,0 +1,12 @@
+tvb.png -> https://www.thevirtualbrain.org
+fmri.png -> https://commons.wikimedia.org/wiki/File:Heine2012x3010.png
+dti.png -> https://commons.wikimedia.org/wiki/File:DTI_Brain_Tractographic_Image_Set.jpg
+med.png -> https://commons.wikimedia.org/wiki/File:190603_Functional_magnetic_resonance_imaging_at_the_Imperial_Centre_for_Psychedelic_Research.jpg
+
+other sources ->
+
+brain structure volumes
+http://www.bic.mni.mcgill.ca/users/noor/brain_volume.html
+connectomic databases
+https://www.humanconnectome.org
+https://cocomac.g-node.org

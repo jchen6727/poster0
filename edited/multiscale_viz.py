@@ -3,30 +3,32 @@ import numpy
 
 #box = numpy.random.normal( mean , stdev , (x_size, y_size))
 
-#total cortical grey matter    (814)
-#total subcortical grey matter  (54)
-#total white matter            (601)
-#==================================
-#total                        (1469)
+# see surfaces.csv
+# the flat cortex is 43x ~(7x7) larger than M1, which is 610x ~(25x25) larger than cortical column
 
-#length?
-#this box represents the system (10^3)
-box0 = numpy.full((32, 32), 5)
+# flat hemisphere + M1 + cortical column
 
-#fill area (10^2) of system (10^3)
-box0[-10:, -10:] = numpy.full((10, 10), 4)
+# hemisphere
+box0 = numpy.full((175, 175), 5)
 
-#fill local circuit (10^1.1)
-box0[-4:,-4:] = numpy.full((4, 4), 3)
+# M1
+box0[-25:, -25:] = numpy.full((25, 25), 4)
 
-#fill column (10^0.1)
-box0[-1][-1] = 2
+# cortical column
+box0[-1][-1] = 3
 
-#fill layer (10^-0.6)
+# show
+#fig = px.imshow(box0, zmin = 1, zmax = 3)
 
-#fill cell (10^-0.7)
+# cortical column
+box1 = numpy.full((904, 904), 3)
 
-#fill dendrite (10^-0.9)
-fig = px.imshow(box0)
+# cell
+box1[-8:, -8:] = numpy.full((8, 8), 2)
 
+# segment
+box1[-1][-1] = 1
+
+# show
+fig = px.imshow(box1, zmin = 1, zmax = 3)
 fig.show()

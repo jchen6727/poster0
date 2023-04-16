@@ -1,8 +1,8 @@
-from prosimian galagos
-
-https://www.frontiersin.org/articles/10.3389/fncir.2013.00030/full#T1
-
-label, measure, value, units
-flat cortex, 1782 1850 1817, mm^2
-M1, 43.22, mm^2
-cortical column, 300
+label, values, units, notes
+flat cortex (hemisphere), 1782 1850 1817, mm^2, prosimian galagos https://doi.org/10.3389/fncir.2013.00030
+M1, 30.52 43.22 55.92, mm^2, mean +/- 1 stdev from prosimian galagos
+cortical column, 0.0706, mm^2, highly arbitrary what a column is--100 cells in minicolumn & 100 minicolumns in column
+cells in cortical column, 12800, cells / column, from prosimian galagos & density c/w 10k cells in column
+segments in cell across 28 M1 cell types, 66.42, segs / cell, segs = [seg for sec in sim.h.allsec() for seg in sec.allseg()]   
+, , , the flat cortex is 43x ~(7x7) larger than M1, which is 610x ~(25x25) larger than cortical column
+, , , the cortical column contains 12800 ~(113x113) cells, each of which contain 66 ~(8x8) segments

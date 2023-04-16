@@ -1,1 +1,20 @@
-label, volume
+label, measure, value, units
+total cortical grey matter, 813557
+total subcortical grey matter, 54103
+total white matter, 600739
+^ calculated total, 1468399 
+total CSF volume, 340541
+brainstem and cerebellum, 236235
+total frontal lobe: cortical grey, 260503
+total parietal lobe: cortical grey, 145341
+total temporal lobe: cortical grey, 251609
+total occipital lobe: cortical grey, 101375
+total other cortical grey, 54729
+R superior frontal gyrus, 15882
+R middle frontal gyrus, 28920
+R inferior frontal gyrus, 20377
+R medial frontal gyrus, 20140
+R precentral gyrus, 26074
+R lateral fronto-orbital gyrus, 18223
+R medial fronto-orbital gyrus, 4375
+

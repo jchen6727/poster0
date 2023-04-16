@@ -5,8 +5,9 @@ med.png -> https://commons.wikimedia.org/wiki/File:190603_Functional_magnetic_re
 
 other sources ->
 
-brain structure volumes
+brain structure volumes ->
 http://www.bic.mni.mcgill.ca/users/noor/brain_volume.html
-connectomic databases
+
+connectomic databases ->
 https://www.humanconnectome.org
 https://cocomac.g-node.org
